@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crear cuenta</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: "Verdana", sans-serif;
+            background-color: rgb(37, 32, 30);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        form{
+            background-color: ivory;
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            width: 420px;
+            box-shadow: 0 0 20px;
+            text-align: center;
+        }
+        form h2{
+            font-size: 30px;
+            margin-bottom: 30px;
+        }
+        input{
+            padding: 16px;
+            border-radius: 26px;
+            margin-bottom: 25px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h2>CREAR CUENTA</h2>
+        <input type="text" placeholder="Nombre" required>
+        <input type="text" placeholder="Apellido" required>
+        <input type="email" placeholder="Correo" required>
+        <input type="password" placeholder="Contraseña" required>
+        <input type="password" placeholder="Confirmar Contraseña" required >
+        <input type="submit" class="btn" value="Crear">
+    </form>
+</body>
+</html>
