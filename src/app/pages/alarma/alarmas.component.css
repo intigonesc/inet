@@ -4,7 +4,6 @@ header {
     padding: 10px;
 }
 
-/* Estilos para el botón */
 .btn {
     background-color: #171a1d;
     color: #fff;
@@ -13,7 +12,6 @@ header {
     cursor: pointer;
 }
 
-/* Estilos para la tabla */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -32,7 +30,6 @@ th {
     background-color: #f2f2f2;
 }
 
-/* Estilos para el formulario */
 form {
     max-width: 400px;
     margin: 0 auto;
@@ -51,7 +48,6 @@ label {
     font-weight: bold;
 }
 
-/* Estilos para el botón de cierre */
 .btn-close {
     background-color: #eca0a0;
     color: #fff;
@@ -61,13 +57,11 @@ label {
     float: right;
 }
 
-/* Estilos para el encabezado de formulario */
 h1 {
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-/* Estilos para el botón de guardar */
 button[type="submit"] {
     background-color: #28a745;
     color: #fff;
