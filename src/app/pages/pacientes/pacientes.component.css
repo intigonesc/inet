@@ -1,0 +1,82 @@
+/* Estilo para la barra de navegación */
+.navbar {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #28a745;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #28a745;
+  }
+  
+  .form-control {
+    border-color: #28a745;
+  }
+  
+  .btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+  }
+  
+  /* Estilo para la tabla */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .table thead th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Estilo para los botones de "Nuevo", "Editar" y "Eliminar" */
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para el título */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para el formulario de búsqueda */
+  .modal-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-bottom: none;
+  }
+  
+  /* Estilo para el enlace "Nuevo" en el formulario */
+  .modal-header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .modal-header a:hover {
+    text-decoration: underline;
+  }
+  

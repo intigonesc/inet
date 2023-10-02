@@ -1,44 +1,17 @@
-
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-
-
-    <div class="sidebar">
-        <div class="app-logo">
-            <img src="assets\logo.png" alt="logo">
-            <p>Sistema Codigo Azul</p>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a  class="logo">Codigo Azul</a>
+            <ul class="nav-links">
+                
+                <li><a routerLink="pacientes">pacienes</a></li>
+                <li><a routerLink="dashboard">dashboard</a></li>
+                <li><a routerLink="usuarios">Usarios</a></li>
+                <li><a routerLink="llamados">llamados</a></li>
+                <li><a routerLink="alarmas">Alarmas</a></li>
+                <li><a routerLink="configuracion">configuracion</a></li>
+                
+            </ul>
         </div>
-        <div class="navigation">
-            <a href="/">
-                <span class="material-symbols-outlined">detector_alarm</span>
-                <span>Alarmas</span>
-            </a>
-            <a href="/">
-                <span class="material-symbols-outlined">groups</span>
-                <span>Enfermeros</span>
-            </a>
-            <a href="/">
-                <span class="material-symbols-outlined">hotel</span>
-                <span>Pacientes</span>
-            </a>
-            <a href="/">
-                <span class="material-symbols-outlined">location_on</span>
-                <span>Ubicaciones</span>
-            </a>
-            <hr>
-            <a href="/">
-                <span class="material-symbols-outlined">cast</span>
-                <span>Display</span>
-            </a>
-            <a href="/">
-                <span class="material-symbols-outlined">bar_chart_4_bars</span>
-                <span>Dashboard</span>
-            </a>
-      
-        </div>
-        <div class="action-settings">
-            <span class="material-symbols-outlined">notifications_active</span>
-            <span>Alarma</span>
-        </div>
-    </div>
+    </nav>
+

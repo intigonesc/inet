@@ -1,0 +1,72 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"></nav>
+</header>
+    
+<h1>Tabla Alarmas</h1>
+  <div class="row">
+    <div class="col-6">
+      <button id="btnNuevo" type="button" class="btn">Nuevo</button>
+    </div>
+    <div class="col-6">
+      <button id="btnEstado" type="button" class="btn">Cambiar Vista</button>
+    </div>
+  </div>
+
+<table id="tabla-Alarma-Activo">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Descripción</th>
+      <th>Ubicación</th>
+      <th>Origen</th>
+      <th>IP</th>
+      <th>Usuario</th>
+      <th>Contraseña</th>
+      <th>Creado</th>
+      <th>Último Cambio</th>
+      <th>Activo</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+<div>
+  <div>
+    <div>
+      <form>
+        <div>
+          <h1></h1>
+          <button type="button" class="btn-close">Cerrar</button>
+        </div>
+        <div>
+          <div>
+            <input type="text" placeholder="Descripción">
+          </div>
+          <div>
+            <select name="ID_Ubicacion" id="ID_Ubicacion">
+              <option value="">Ubicación</option>
+            </select>
+          </div>
+          <div>
+            <input type="text" placeholder="Origen">
+          </div>
+          <div>
+            <input type="text" placeholder="IP">
+          </div>
+          <div>
+            <input type="text" placeholder="Usuario">
+          </div>
+          <div>
+            <input type="text" placeholder="Contraseña">
+          </div>
+        </div>
+        <div>
+          <button type="button">Cancelar</button>
+          <button type="submit">Guardar</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
